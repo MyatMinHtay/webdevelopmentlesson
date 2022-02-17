@@ -81,7 +81,7 @@ for(let key in contents){
     content_title.innerHTML = contents[key].title;
 
     const content_header = document.createElement('div');
-    content_header.className = "content-header text-center text-decoration-underline text-uppercase my-2 h2";
+    content_header.className = "content-header text-center text-decoration-underline text-uppercase my-4 h2";
     content_header.innerHTML = contents[key].contentheader;
     
     const content_text = document.createElement('div');
