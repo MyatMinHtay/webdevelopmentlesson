@@ -146,11 +146,17 @@ body{
 
 .content-title{
    margin-left: 30px;
-   display: none;
 }
 
 .content.active .content-title{
     transition: all 0.2s ease-in;
+}
+
+.content-header{
+    display: none;
+}
+
+.content.active .content-header{
     display: block;
 }
 
