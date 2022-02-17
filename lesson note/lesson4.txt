@@ -1,0 +1,7 @@
+pre tag
+center tag 
+align attribute
+sup
+sub
+em
+strong
